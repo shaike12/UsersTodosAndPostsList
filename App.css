@@ -8,9 +8,6 @@ label {
   margin-right: 20px;
 }
 
-input {
-}
-
 .app-container {
   display: flex;
   justify-content: center;
@@ -91,18 +88,9 @@ input {
   padding: 10px;
 }
 
-.todos_and_posts {
-}
-
 .new_todo {
   border: 1px solid black;
   padding: 30px;
-}
-
-.new_todo_header {
-}
-
-.new_todo_container {
 }
 
 .cancel_button {
