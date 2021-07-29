@@ -47,7 +47,7 @@ function PostsComp(props) {
                             name="body"
                             onChange={(e) => setBody(e.target.value)}
                         />
-                        <br />
+                        <br /><br/>
                         <input
                             className="cancel_button"
                             type="button"

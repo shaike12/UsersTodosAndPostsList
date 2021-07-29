@@ -84,11 +84,16 @@ label {
 
 .post-item,
 .todo-item {
-  border: 1px solid black;
+  border: 1px solid purple;
   padding: 10px;
 }
 
 .new_todo {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.new_post {
   border: 1px solid black;
   padding: 30px;
 }
