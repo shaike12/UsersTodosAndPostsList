@@ -1,6 +1,12 @@
 function TodoComp(props) {
+
+    let style = {}
+    if (!props.todo.completed){
+        style = {border: "2px solid red"}
+    }
+
     return (
-        <div className="todo-item">
+        <div className="todo-item" style={style}>
             <label htmlFor="Title">Title:</label>
             <p>{props.todo.title}</p>
             <label htmlFor="completed">Completed:</label>
